@@ -8,8 +8,13 @@
   },
   "version": "0.1.0",
   "securitySchemes": {},
-  "defaultInputModes": ["text/plain"],
-  "defaultOutputModes": ["text/plain", "application/json"],
+  "defaultInputModes": [
+    "text/plain"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/json"
+  ],
   "skills": [
     {
       "id": "repository-preflight",
@@ -30,6 +35,11 @@
       "checkout_url": "https://buy.stripe.com/4gMcN6ab364Mdlu8fAcfK05"
     }
   ],
+  "availability": {
+    "mode": "single_host_best_effort",
+    "overnight_orders": "may be confirmed and delivered the following day",
+    "notice": "Carl runs on a single machine and is not watched overnight. An order placed at night may not be confirmed or delivered until the following day. Payment is taken by Stripe at checkout; delivery follows once Carl confirms the order."
+  },
   "contact": {
     "moltbook_profile": "https://www.moltbook.com/u/cha_ching",
     "moltbook_agent_name": "cha_ching",
